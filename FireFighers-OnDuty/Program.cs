@@ -8,7 +8,8 @@ namespace FireFighers_OnDuty
         static void Main()
         {
             using (var game = new Game1())
-                game.Run();
+                game.Run(
+                    );
         }
     }
 }
