@@ -6,6 +6,7 @@ using Microsoft.Xna.Framework.Input;
 using MonoGame.Extended.Tiled;
 using MonoGame.Extended.Tiled.Renderers;
 using MonoGame.Extended;
+using MonoGame.Extended.TextureAtlases;
 using MonoGame.Extended.ViewportAdapters;
 
 
@@ -16,6 +17,7 @@ namespace FireFighers_OnDuty
         private new Game1 Game => (Game1) base.Game;
         private OrthographicCamera _camera;
         TiledMap _tiledMap;
+        public TextureAtlas myAtlas;
         TiledMapRenderer _tiledMapRenderer;
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
@@ -31,6 +33,7 @@ namespace FireFighers_OnDuty
                 GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height);
             _camera = new OrthographicCamera(viewportadapter);
             _cameraPosition = new Vector2(viewportadapter.VirtualWidth /2 , viewportadapter.VirtualHeight / 2);
+            
         }
         public override void Update(GameTime gameTime)
         {
@@ -45,11 +48,7 @@ namespace FireFighers_OnDuty
         public override void Draw(GameTime gameTime)
         {
             Game.GraphicsDevice.Clear(Color.Gray);
-
-         //   _tiledMapRenderer.Draw(_camera.GetInverseViewMatrix());
-            
             _tiledMapRenderer.Draw( _camera.GetViewMatrix());
-
         }
         private void MoveCamera(GameTime gameTime)
         {

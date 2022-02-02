@@ -10,7 +10,8 @@ namespace FireFighers_OnDuty
     public class Game1 : Game
     {
         private GraphicsDeviceManager _graphics;
-        private SpriteBatch _spriteBatch;
+        
+        public SpriteBatch _spriteBatch;
         private readonly ScreenManager _screenManager;
         
 
@@ -54,8 +55,6 @@ namespace FireFighers_OnDuty
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
-              
-            
 
             base.Update(gameTime);
         }

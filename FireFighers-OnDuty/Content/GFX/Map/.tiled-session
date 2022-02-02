@@ -1,0 +1,111 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "C:/Users/abdel/IdeaProjects/MyFirstGame/core/assets/map.tmx",
+    "expandedProjectPaths": [
+        "C:/Users/abdel/RiderProjects/Gamesus/Gamesus",
+        "C:/Users/abdel/RiderProjects/Gamesus/Gamesus/Content/Tilemaps",
+        "C:/Users/abdel/RiderProjects/Gamesus/Gamesus/Content",
+        "C:/Users/abdel/RiderProjects/Gamesus/Gamesus/Content/Tilesets"
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "": {
+            "scaleInDock": 1
+        },
+        "C:/Users/abdel/IdeaProjects/MyFirstGame/core/assets/map.tmx": {
+            "scale": 0.5,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 807,
+                "y": 1110
+            }
+        },
+        "C:/Users/abdel/IdeaProjects/MyFirstGame/core/assets/map.tmx#tileset": {
+            "scaleInDock": 1
+        },
+        "C:/Users/abdel/RiderProjects/Gamesus/Gamesus/Content/Tilemaps/Map.tmx": {
+            "scale": 0.33,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 806.0606060606061,
+                "y": 821.2121212121212
+            }
+        },
+        "C:/Users/abdel/RiderProjects/Gamesus/Gamesus/Content/Tilemaps/Map.tmx#Nature_Tileset": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "C:/Users/abdel/RiderProjects/Gamesus/Gamesus/Content/Tilemaps/Map.tmx#Tile": {
+            "scaleInDock": 1
+        },
+        "C:/Users/abdel/RiderProjects/Gamesus/Gamesus/Content/Tilesets/Nature_Tileset.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "C:/Users/abdel/RiderProjects/Gamesus/Gamesus/Content/Tilesets/Tile.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 0.25,
+            "scaleInEditor": 0.25
+        },
+        "C:/Users/abdel/RiderProjects/Gamesus/Gamesus/Map.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 655.6666666666667,
+                "y": 670.6666666666666
+            }
+        },
+        "C:/Users/abdel/RiderProjects/Gamesus/Gamesus/Tile.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 3
+        },
+        "C:/Users/abdel/RiderProjects/Gamesus/Gamesus/Tileset1.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "C:/Users/abdel/Tileset1.tsx": {
+            "dynamicWrapping": true
+        },
+        "map.tmx": {
+            "scale": 0.4193359375,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1024.2384722869122,
+                "y": 1025.4308337214718
+            }
+        }
+    },
+    "last.externalTilesetPath": "C:/Users/abdel/RiderProjects/Gamesus/Gamesus/Content/Tilesets",
+    "last.imagePath": "C:/Users/abdel/IdeaProjects/MyFirstGame/core/assets",
+    "map.height": 50,
+    "map.lastUsedFormat": "tmx",
+    "map.layerDataFormat": null,
+    "map.tileHeight": 32,
+    "map.tileWidth": 32,
+    "map.width": 50,
+    "openFiles": [
+        "C:/Users/abdel/IdeaProjects/MyFirstGame/core/assets/map.tmx"
+    ],
+    "project": ".tiled-project",
+    "recentFiles": [
+        "C:/Users/abdel/IdeaProjects/MyFirstGame/core/assets/map.tmx",
+        "C:/Users/abdel/RiderProjects/Gamesus/Gamesus/Content/Tilemaps/Map.tmx",
+        "C:/Users/abdel/RiderProjects/Gamesus/Gamesus/Content/Tilesets/Nature_Tileset.tsx",
+        "C:/Users/abdel/RiderProjects/Gamesus/Gamesus/Content/Tilesets/Tile.tsx",
+        "C:/Users/abdel/RiderProjects/Gamesus/Gamesus/Map.tmx",
+        "C:/Users/abdel/RiderProjects/Gamesus/Gamesus/Tile.tsx",
+        "C:/Users/abdel/RiderProjects/Gamesus/Gamesus/Tileset1.tsx"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 32,
+        "width": 32
+    },
+    "tileset.type": 0
+}
